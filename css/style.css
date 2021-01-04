@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Staatliches';
+}
+nav {
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+}
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/bg.jpg");
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+    letter-spacing: 8px;
+    color: white;
+    font-size: 50px;
+}
+
+#userCountry {
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+#searchBtn {
+  margin-top: 10px;
+}
+
+.card {
+    display: inline-flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../img/bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("https://images.all-free-download.com/images/graphicthumb/simple_world_maps_vector_578782.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.country-name {
+    color: white;
+}
+
+#allCountries {
+    letter-spacing: 4px;
+    font-size: 70px;
+}
+#totalCountriesHead {
+    letter-spacing: 4px;
+}
+
+.card-title {
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.madeBy {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+ }
